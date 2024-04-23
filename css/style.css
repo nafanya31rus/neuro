@@ -17,11 +17,6 @@ ul {
     list-style: none;
 }
 
-h1 {
-
-
-}
-
 
 .container {
     max-width: 1350px;
@@ -116,14 +111,14 @@ button:hover {
         background-repeat: no-repeat;
         background-size: contain;
         border-radius: 30px;
-        margin: 20px;
-        width: 450px;
-        height: 300px;
+        /*margin: 20px;*/
+        width: 400px;
+        height: 268px;
     }
 
     .banner-layer {
-        width: 400px;
-        height: 250px;
+        width: 360px;
+        height: 230px;
         margin: 20px;
     }
 
@@ -143,6 +138,10 @@ button:hover {
     }
 
     .layer-button {
-        margin: 0;
+        margin: -8px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: -0.75rem;
     }
 }
